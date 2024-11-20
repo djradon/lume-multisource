@@ -7,10 +7,10 @@ export const multisourceConfig = {
     {
       url: "git@github.com:djradon/lumenous-template.git",
       options: {
-        include: ["demo", "template"],
+        include: ["demo", "lumenous-template"],
         exclude: [],
         excludeByDefault: false,
-        autoPullBeforeBuild: true,
+        autoPullBeforeBuild: false,
         autoPushBeforeBuild: false,
       },
     }/*,
